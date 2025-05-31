@@ -1,5 +1,5 @@
 <script>
-    import "./styles.css";
+  import "../styles.css";
 </script>
 
 <nav
@@ -37,5 +37,5 @@
 </nav>
 
 <div class="container mt-3">
-  {@render children()}
+  <slot />
 </div>
